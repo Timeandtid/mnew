@@ -6,9 +6,9 @@ var sin = Math.sin;
 var cos = Math.cos;
 
 var renderTexture = (function(){
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "green";
     ctx.fillRect(0, 0, 400, 400);
-    ctx.fillStyle = "gray"
+    ctx.fillStyle = "blue"
     ctx.fillRect(50, 50, 300, 300);
     
     return ctx.getImageData(0, 0, 400, 400).data;
